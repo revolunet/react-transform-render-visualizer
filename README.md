@@ -26,17 +26,16 @@ It must be an array of the transforms you want to use:
 
 ```js
 {
-  "stage": 0,
+  "presets": ["stage-1"],
   "plugins": [
-    "react-transform"
-  ],
-  "extra": {
-    "react-transform": {
-      "transforms": [{
-        "transform": "react-transform-render-visualizer"
-      }]
-    }
-  }
+    ['react-transform', {
+      transforms: [
+        {
+          "transform": "react-transform-render-visualizer"
+        }
+      ]
+    }]
+  ]
 }
 ```
 
