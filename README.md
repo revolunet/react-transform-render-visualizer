@@ -26,7 +26,7 @@ It must be an array of the transforms you want to use:
 
 ```js
 {
-  "presets": ["stage-1"],
+  "presets": ["stage-0"],
   "plugins": [
     ['react-transform', {
       transforms: [
